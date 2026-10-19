@@ -1,2 +1,10 @@
+[project]
+name = "telegram-background-remover"
+version = "1.0.0"
+requires-python = ">=3.12"
+dependencies = [
+"requests>=2.32.0,<3.0.0",
+]
+
 [tool.vercel]
 entrypoint = "api.webhook:handler"
